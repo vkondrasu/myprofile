@@ -1,0 +1,22 @@
+div{
+    align-content: center;
+    background-color: aqua;
+    text-align: center;
+    align-items: center;
+    margin: 50px;
+    padding: 20px;
+    font-family: sans-serif, cursive;
+}
+
+h1{
+    color: brown;
+    font-family: cursive;
+    font-weight: 400;
+    background-color: aliceblue;
+}
+
+li{
+    text-decoration-color: azure;
+    font-family: fantasy;
+    font-weight: 300
+}
