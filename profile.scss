@@ -1,0 +1,53 @@
+.menu-item{
+    a{
+        text-decoration-color: royalblue;
+    }
+}
+
+#profile-picture{
+    border-radius: 50%
+}
+
+.service-history{
+    border-width: 2px;
+    border-color: gray;
+    border-bottom-style: ridge;
+    border-style: solid;
+    margin: 5px;
+    padding: 5px;
+    text-align: center;
+}
+
+tr, td{
+    border-style: dashed;
+    border-collapse: collapse;
+    border-color: chocolate;
+}
+
+h3{
+    font-family: serif;
+    background-color: aliceblue;
+    color:darkblue;
+    width:500px;
+}
+
+@media print{
+    .screen-only{
+        display: none
+    }
+}
+
+@media (max-width:499px){
+    h3{
+        background-color: indianred;
+    }
+}
+
+%tableadta{
+    color: cadetblue;
+}
+
+th{
+    @extend %tabledata;
+    font-weight: 400;
+}

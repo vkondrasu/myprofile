@@ -2,20 +2,121 @@
 <html>
     <head>
         <title>My Webpage</title>
-        <link rel="stylesheet" href="style.css"
+        <link rel="stylesheet" href="profile.scss">
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
     </head>
     <body>
-        <div id="common-header">
-            <p>
-                <span><a href="index.html"> Home </a></span>
-                <span><a href="interests.html"> Interests </a></span>
-                <span><a href="blog.html"> Blog </a></span>
-                <span><a href="about.html"> About </a></span>
-            </p>
+        <div class="container screen-only">
+            <div class="row">
+                
+                <div class="col-lg-4">
+                    <img src="b5adb7fprofile.jpg" id="profile-picture">
+                </div>
+                
+                <div class="col-lg-2">
+                    <span class="menu-item"><a href="index.html"> Home </a></span>
+                </div>
+                
+                <div class="col-lg-2">
+                    <span class="menu-item"><a href="interests.html"> Interests </a></span>
+                </div>
+                
+                <div class="col-lg-2">
+                    <span class="menu-item"><a href="blog.html"> Blog </a></span>
+                </div>
+                
+                <div class="col-lg-2">
+                    <span class="menu-item"><a href="about.html"> About </a></span>
+                </div>
+            
+            </div>
         </div>
         
-        <div id="page-header">
-            <h1> Home </h1>
+        <div class="container screen-only">
+            <div class="row">
+                <h1> Home </h1>
+            </div>
+            
+        </div>
+        
+        <div class="container">
+            <h3> Work experience </h3>
+            <div class="row">
+                
+                <table class="service-history">
+                    <thead>
+                        <th>
+                            Organization
+                        </th>
+                        <th>
+                            Years
+                        </th>
+                        <th>
+                            Role
+                        </th>
+                        <th>
+                            Technology
+                        </th>
+                        <th>
+                            Projects
+                        </th>
+                    </thead>
+                    <tr>
+                        <td>Service Now</td>
+                        <td>2018*</td>
+                        <td>SDE</td>
+                        <td>Javascript</td>
+                        <td>
+                            <ul>
+                                <li>Code Recommendation Tool</li>
+                                <li>Progress Framewrok</li>
+                                <li>Service Level Controller</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>NCR Corporation</td>
+                        <td>2015 - 2018</td>
+                        <td>Senior software engineer</td>
+                        <td>C++</td>
+                        <td>
+                            <ul>
+                                <li>WorldPay EMV</li>
+                                <li>NTS Payments</li>
+                                <li>First Datat</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Oracle India</td>
+                        <td>2014 - 2014</td>
+                        <td>Application Developer II</td>
+                        <td>Java</td>
+                        <td>
+                            <ul>
+                                <li>EMS</li>
+                            </ul>
+                        </td>
+                    </tr>
+                    
+                    <tr>
+                        <td>Financial Software systems India</td>
+                        <td>2011 - 2013</td>
+                        <td>Software engineer</td>
+                        <td>C++, C#.net</td>
+                        <td>
+                            <ul>
+                                <li>Spectrum Reporting</li>
+                                <li>Margin and Limits</li>
+                                <li>Data Engine</li>
+                            </ul>
+                        </td>
+                    </tr>
+                </table>
+            </div>
+            
         </div>
     </body>
 </html>
