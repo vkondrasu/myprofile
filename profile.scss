@@ -43,11 +43,14 @@ h3{
     }
 }
 
-%tableadta{
+
+%tabledata{
     color: cadetblue;
 }
 
-th{
-    @extend %tabledata;
-    font-weight: 400;
+.service-history{
+    th{
+        @extend %tabledata;
+        font-weight: 400;
+    }
 }
